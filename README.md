@@ -1,4 +1,4 @@
-[Uploading README(2).md…]()
+
 # OpenVPN Lab — Site-to-Client VPN Setup
 
 A hands-on lab where I built a fully functional VPN from scratch using OpenVPN and Easy-RSA on two Linux virtual machines. This includes setting up a Certificate Authority, issuing certificates, configuring the server and client, and verifying encrypted tunnel traffic.
