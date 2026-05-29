@@ -96,7 +96,7 @@ sudo cp ~/openvpn-ca/pki/ta.key /etc/openvpn/
 ```
 
 ### 9. Configured the Server
-- Created `/etc/openvpn/server.conf` (see [configs/server.conf](configs/server.conf))
+- Created `/etc/openvpn/server.conf` (see [configs/server.conf](https://github.com/iQ-coder/openvpn-homelab/blob/main/server.conf))
 - Started and enabled the OpenVPN service:
 ```bash
 sudo systemctl start openvpn@server
@@ -112,7 +112,7 @@ scp ~/openvpn-ca/pki/ta.key IQ@192.168.56.103:~/vpn/
 ```
 
 ### 11. Configured and Connected the Client
-- Created `~/vpn/client.ovpn` on Kali (see [configs/client.ovpn](configs/client.ovpn))
+- Created `~/vpn/client.ovpn` on Kali (see [configs/client.ovpn](https://github.com/iQ-coder/openvpn-homelab/blob/main/client.ovpn))
 - Connected to the VPN:
 ```bash
 sudo openvpn --config ~/vpn/client.ovpn
@@ -157,8 +157,8 @@ ping 10.8.0.1
 
 ## Config Files
 
-- [configs/server.conf](configs/server.conf) — OpenVPN server configuration
-- [configs/client.ovpn](configs/client.ovpn) — OpenVPN client configuration
+- [configs/server.conf](https://github.com/iQ-coder/openvpn-homelab/blob/main/server.conf) — OpenVPN server configuration
+- [configs/client.ovpn](https://github.com/iQ-coder/openvpn-homelab/blob/main/client.ovpn) — OpenVPN client configuration
 
 ---
 
